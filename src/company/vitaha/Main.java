@@ -57,7 +57,7 @@ public class Main {
 						}
 					}
 				} catch (Exception e) {
-					System.out.println("Вы ввели неверное значение и поэтому пропускаете ход");
+					System.out.println("Вы ввели неверное значение и поэтому повторите ход");
 					res--;
 				}
 			} else {
