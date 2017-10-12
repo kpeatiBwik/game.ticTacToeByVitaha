@@ -18,6 +18,10 @@ public class Main {
 			} else if (Integer.parseInt(chooseSymbol) == 2) {
 				pl = "o";
 				ii = "x";
+			} else {
+				System.out.println("Ты неправильно выбрал символ.\nТвой символ -> x");
+				pl = "x";
+				ii = "o";
 			}
 		} catch (Exception e) {
 			System.out.println("Ты неправильно выбрал символ.\nТвой символ -> x");
